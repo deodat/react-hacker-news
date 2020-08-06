@@ -1,0 +1,40 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard",
+        "plugin:prettier/recommended"
+    ],
+    "plugins": [
+        "react",
+        "prettier",
+        "babel"
+    ],
+    "rules": {
+        "babel/new-cap": 1,
+        "babel/camelcase": 1,
+        "babel/no-invalid-this": 1,
+        "babel/object-curly-spacing": 0,
+        "babel/quotes": 0,
+        "babel/semi": 0,
+        "babel/no-unused-expressions": 1,
+        "babel/valid-typeof": 1
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
