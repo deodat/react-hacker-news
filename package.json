@@ -7,7 +7,7 @@
         "start": "webpack-dev-server",
         "lint": "eslint src/**/*.js src/**/*.jsx",
         "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-        "build": "NODE_ENV:'production' webpack"
+        "build": "NODE_ENV='production' webpack"
     },
     "babel": {
         "presets": [
